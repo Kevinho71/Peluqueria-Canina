@@ -1,0 +1,44 @@
+# NetBeans specific files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+*.orig
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Generated sources (JPA, JAXB, etc)
+generated-sources/
+
+# Resources with sensitive data
+src/main/resources/META-INF/persistence.xml
+
+# Optional: if you include compiled libraries manually
+lib/
+
+# Maven or Gradle (if you use them later)
+target/
+.gradle/
+build/
