@@ -4,6 +4,8 @@
  */
 package com.mycompany.peluqueriacanina.GUI;
 
+import javax.imageio.ImageIO;
+
 /**
  *
  * @author Usuario
@@ -86,7 +88,7 @@ public class Principal extends javax.swing.JFrame {
         );
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\Desktop\\PELUQUERIA.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/PELUQUERIA.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
